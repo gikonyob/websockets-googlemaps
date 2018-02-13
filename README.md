@@ -1,6 +1,6 @@
 # Realtime Tracking with WebSockets and GoogleMaps
 
-![alt text](https://github.com/GikonyoBrian/websockets-googlemaps/raw/master/icon.png =300x300 "Websockets & Google Maps API")
+![alt text](https://github.com/GikonyoBrian/websockets-googlemaps/raw/master/icon.png =300x300)
 
 This is a demo project demonstrating the use of WebSockets
 and GoogleMaps to perform real-time tracking of clients.
