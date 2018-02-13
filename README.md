@@ -1,4 +1,4 @@
-# Realtime Tracking with WebSockets and GoogleMaps
+# Real-time Tracking with WebSockets and GoogleMaps
 
 <img align="center" src="https://github.com/GikonyoBrian/websockets-googlemaps/raw/master/icon.png" alt ="Websockets and Google Maps" width="300" height="300">
 
