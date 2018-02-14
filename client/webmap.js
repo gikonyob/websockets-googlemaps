@@ -134,9 +134,9 @@ function get_map(){
     document.body.innerHTML = '<div id="map"></div>\
     <button style="background-color: #ffffff;bottom:20px;left:8px; position:absolute;z-index: 9999; padding-top: 5px;padding-left: 10px;padding-bottom: 5px;padding-right: 10px;" onclick="send_logout();">\
     Logout</button>';
-    $.getScript( "http://localhost/client/gmaps.js", function() {
+    $.getScript( "http://localhost/gmaps.js", function() {
                 $.getScript("https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap", function() {
-                    $.getScript("http://localhost/client/markerAnimate.js", function() {}, true);
+                    $.getScript("http://localhost/markerAnimate.js", function() {}, true);
                 }, true);
             }, true);
 }
