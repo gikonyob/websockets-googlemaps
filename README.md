@@ -34,7 +34,7 @@ Then run the following commands to start the http server;
 
 ````
 	cd ./client
-	php -S localhost:80
+	sudo php -S localhost:80
 ````
 
 Launch different browsers and go to [http://localhost/websocket-googlemaps.html](http://localhost/websocket-googlemaps.html) and register and login as different users.
