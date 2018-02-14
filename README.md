@@ -7,7 +7,7 @@ and GoogleMaps to perform real-time tracking of clients.
 
 ## Installation
 
-You will make sure you have php and composer installed and that the sqlite extension for php is installed and enabled in php.ini, then run the following commands;
+Make sure you have php and composer installed and that the sqlite extension for php is installed and enabled in php.ini, then run the following commands;
 
 ````
 	git clone https://github.com/GikonyoBrian/websockets-googlemaps.git
