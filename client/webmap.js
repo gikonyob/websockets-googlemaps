@@ -179,6 +179,7 @@ ws.onmessage = function(e) {
 }
 
 ws.onclose = function(e) {
+  get_login();
  	toastr.error("Connection Closed");
 }
 
