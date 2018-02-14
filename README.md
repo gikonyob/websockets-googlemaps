@@ -17,7 +17,7 @@ You will need to have php and composer installed and then run the following comm
 
 ## Configuration and Running
 You will need to get a [Google Maps API](https://developers.google.com/maps/) key and then enable the Google Maps Javascript API.
-Then go to line 139 of ./client/webmap.js and replace API_KEY with the key you get.
+Then go to line 138 of ./client/webmap.js and replace API_KEY with the key you get.
 
 ```
 $.getScript("https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap", function() {
