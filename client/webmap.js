@@ -180,7 +180,7 @@ ws.onmessage = function(e) {
 
 ws.onclose = function(e) {
   get_login();
- 	toastr.error("Connection Closed");
+  toastr.error("Connection Closed");
 }
 
 function send_register() {
