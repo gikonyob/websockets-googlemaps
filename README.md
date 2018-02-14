@@ -12,7 +12,7 @@ You will need to have php and composer installed and then run the following comm
 ````
 	git clone https://github.com/GikonyoBrian/websockets-googlemaps.git
 	cd ./websockets-googlemaps/server
-	php composer install
+	composer install
 ````
 
 ## Configuration and Running
