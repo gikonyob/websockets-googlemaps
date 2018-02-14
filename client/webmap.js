@@ -144,9 +144,14 @@ function get_map(){
 ws.onmessage = function(e) {
  	var data = JSON.parse(e.data);
  	if(data.type==='connection'){
- 		if(navigator.cookieEnabled===false){
- 			setTimeout(function(){ toastr.warning("Please enable cookies on your browser"); }, 25000);
- 		}
+ 		  if(navigator.cookieEnabled===false){
+ 			  setTimeout(function(){ toastr.warning("Please enable cookies on your browser"); }, 25000);
+ 		  }
+      setInterval(function(){ 
+            if(!checkCookie("user_name")) { 
+                clearInterval(mapInterval);
+            }
+        }, 2000);
         if(checkCookie("user_name") && checkCookie("token")){
             get_map();
         }else{
